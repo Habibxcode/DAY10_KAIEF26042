@@ -1,12 +1,11 @@
-#  Day 10 — Production AI Systems
+#  Day 10 — Production-grade AI systems covering Secure RAG, Multi-Agent AutoGen collaboration, and Supervised Fine-Tuning data preparation
 
-
-> **Knots AI Engineering Foundation Cohort — Day 10 Mini Project**
+> **Knots AI Engineering Foundation Cohort — Day 10  Project**
 > Production-grade AI systems covering Secure RAG, Multi-Agent AutoGen collaboration, and Supervised Fine-Tuning data preparation.
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 
 This project implements three production-grade AI system components:
 
@@ -18,11 +17,11 @@ This project implements three production-grade AI system components:
 
 ---
 
-## 📸 Demo Screenshots
+##  Demo Screenshots
 
 > All three components verified working — screenshots captured from live terminal runs.
 
-### 🛡️ Part A — Secure RAG Engine in Action
+###  Part A — Secure RAG Engine in Action
 
 *Legitimate queries answered from policy KB; all 3 attack types blocked at the input guardrail.*
 
@@ -30,7 +29,7 @@ This project implements three production-grade AI system components:
 
 ---
 
-### 🤖 Part B — AutoGen Multi-Agent Team Collaboration
+###  Part B — AutoGen Multi-Agent Team Collaboration
 
 *Coder_Agent proposes code → Security_Reviewer audits and approves → UserProxy executes in Docker.*
 
@@ -38,7 +37,7 @@ This project implements three production-grade AI system components:
 
 ---
 
-### 📊 Part C — Fine-Tune Data Prep Pipeline
+###  Part C — Fine-Tune Data Prep Pipeline
 
 *10 CSV rows → ChatML JSONL + Alpaca JSONL with validation report, stats, and schema preview.*
 
@@ -46,7 +45,7 @@ This project implements three production-grade AI system components:
 
 ---
 
-### 🗂️ Full Project Overview — All Systems Operational
+###  Full Project Overview — All Systems Operational
 
 *Directory structure and all three scripts running successfully end-to-end.*
 
@@ -54,7 +53,7 @@ This project implements three production-grade AI system components:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 day10_project/
@@ -85,7 +84,7 @@ day10_project/
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ### Part A — Secure RAG Guardrail Pipeline
 
@@ -220,7 +219,7 @@ customer_support.csv (auto-generated if missing)
 
 ---
 
-## 🔐 Security & Red Teaming Posture
+##  Security & Red Teaming Posture
 
 ### Why Input Sanitisation Is Critical
 
@@ -269,7 +268,7 @@ AutoGen agents generate and execute code autonomously. Without sandboxing:
 
 ---
 
-## 🚀 Quickstart Guide
+##  Quickstart Guide
 
 ### Step 1 — Clone the repository
 
@@ -313,7 +312,7 @@ Ensure [Docker Desktop](https://www.docker.com/products/docker-desktop/) is runn
 
 ---
 
-## ▶️ Execution Guide
+##  Execution Guide
 
 ### Part A — Secure RAG Engine
 
@@ -350,7 +349,7 @@ The script:
 
 ---
 
-## 📊 Expected Terminal Outputs
+##  Expected Terminal Outputs
 
 ### `secure_rag.py` — Legitimate Query
 
@@ -401,7 +400,7 @@ The script:
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 | Variable | Required | Description |
 |----------|----------|-------------|
@@ -418,7 +417,7 @@ All three scripts function fully **without** an API key using their built-in off
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 | Package | Version | Purpose |
 |---------|---------|---------|
@@ -433,9 +432,6 @@ All three scripts function fully **without** an API key using their built-in off
 
 ---
 
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
