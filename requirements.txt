@@ -1,0 +1,27 @@
+# ============================================================
+# Day 10 – Production AI Systems: requirements.txt
+# Pin exact versions for reproducible, production-grade builds.
+# ============================================================
+
+# ── Core ML / NLP ──────────────────────────────────────────
+scikit-learn==1.5.1
+numpy==1.26.4
+pandas==2.2.2
+
+# ── Multi-Agent Framework ───────────────────────────────────
+pyautogen==0.2.35
+
+# ── Docker SDK (for AutoGen sandboxed execution) ────────────
+docker==7.1.0
+
+# ── Environment & Config ────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── OpenAI SDK (optional – used when OPENAI_API_KEY is set) ─
+openai==1.40.0
+
+# ── Tokenisation helper (fine-tune stats) ──────────────────
+tiktoken==0.7.0
+
+# ── Testing ─────────────────────────────────────────────────
+pytest==8.3.2
