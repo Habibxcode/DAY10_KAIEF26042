@@ -1,10 +1,5 @@
-# 🛡️ Day 10 — Production AI Systems
+#  Day 10 — Production AI Systems
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![AutoGen](https://img.shields.io/badge/AutoGen-0.2.x-orange?logo=microsoft&logoColor=white)
-![Security Guardrails](https://img.shields.io/badge/Security-Guardrails-critical?logo=shield&logoColor=white)
-![Hugging Face SFT](https://img.shields.io/badge/HuggingFace-SFTTrainer-yellow?logo=huggingface&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 > **Knots AI Engineering Foundation Cohort — Day 10 Mini Project**
 > Production-grade AI systems covering Secure RAG, Multi-Agent AutoGen collaboration, and Supervised Fine-Tuning data preparation.
