@@ -6,21 +6,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-1. [Project Overview](#-project-overview)
-2. [Demo Screenshots](#-demo-screenshots)
-3. [Repository Structure](#-repository-structure)
-4. [System Architecture](#-system-architecture)
-5. [Security & Red Teaming Posture](#-security--red-teaming-posture)
-6. [Quickstart Guide](#-quickstart-guide)
-7. [Execution Guide](#-execution-guide)
-8. [Expected Terminal Outputs](#-expected-terminal-outputs)
-9. [Environment Variables](#-environment-variables)
-10. [Dependencies](#-dependencies)
-
----
-
 ## 🔍 Project Overview
 
 This project implements three production-grade AI system components:
